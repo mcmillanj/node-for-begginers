@@ -4,11 +4,15 @@
   "description": "",
   "main": "10-fs-sync.js",
   "scripts": {
+    "start": "nodemon 12-http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
